@@ -1,7 +1,0 @@
-echo "Yes or No?"
-read ans
-case $ans in
-y*|Y*) echo "YES!!" ;;
-n*|N*) echo "NO!!" ;;
-*) echo "Yes or No Please!" ; yesorno ;;
-esac
